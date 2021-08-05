@@ -5,6 +5,9 @@ Official UI for Viper4Linux [https://github.com/Audio4Linux/Viper4Linux](https:/
 * Telegram: @ThePBone
 * Supports both Viper4Linux2 and legacy Viper4Linux
 
+## Fork features
+This fork aims to added a Chinese language pack to the original version of the Viper4Linux-GUI.
+
 ## Installation
 
 * [Arch](#arch)
