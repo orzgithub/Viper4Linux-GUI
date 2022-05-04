@@ -15,6 +15,9 @@ This fork aims to added a Chinese language pack to the original version of the V
 * [Debian](#debian)
 * [Build from sources](#build-from-sources)
 
+**IMPORTANT:** Make sure to install the Viper4Linux driver and CLI first. It is not included with this GUI: <https://github.com/Audio4Linux/Viper4Linux>
+
+
 ### Arch
 
 On Arch you can use the [AUR package](https://aur.archlinux.org/packages/viper4linux-gui-git/) (using git) provided by yochananmarqos:
@@ -91,6 +94,7 @@ Comment=User Interface for Viper4Linux
 Keywords=equalizer
 Categories=AudioVideo;Audio;
 Exec=viper-gui
+Icon=viper-gui
 StartupNotify=false
 Terminal=false
 Type=Application
@@ -106,6 +110,7 @@ sudo wget -O /usr/share/pixmaps/viper-gui.png https://raw.githubusercontent.com/
 ![GIF](/screenshots/eq.gif)
 
 ## Credits
+* [Chinese translation by Hope2333](https://github.com/Hope2333)
 * [Material Icons](https://material.io/tools/icons/)
 * [QSS Stylesheets by GTRONICK (modified by @ThePBone)](https://github.com/GTRONICK/QSS)
 * [Viper4Linux by noahbliss](https://github.com/noahbliss)
